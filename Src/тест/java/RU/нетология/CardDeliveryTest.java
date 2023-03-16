@@ -22,7 +22,7 @@ public class CardDeliveryTest {
     @Test
     void orderingCardTest() {
         $("[data-test-id='city'] input.input__control").sendKeys("Барнаул");
-        $("[data-test-id='date'] input.input__control").sendKeys("19.03.2023");
+        $("[data-test-id='date'] input.input__control").sendKeys("20.03.2023");
         $("[data-test-id='name'] input.input__control").sendKeys("Иванов Иван");
         $("[data-test-id='phone'] input.input__control").sendKeys("+79101234567");
         $(".checkbox_size_m").click();
